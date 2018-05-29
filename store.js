@@ -37,6 +37,7 @@ var displayProductsFromShoppingCart = function() {
 var askUserForReferenceNumber = function() {
   // Use window.prompt to ask the user a question and capture their response,
   // then, return the response from this function back to our caller
+  return window.prompt('Please enter the product reference number')
 };
 
 //
