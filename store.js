@@ -17,7 +17,7 @@ let shoppingCart = []
 var shopFromStore =  function () {
   var refNr = askUserForReferenceNumber();
   // Add the product with the matching referenceNumber to the shoppingCart
-
+  shoppingCart.push(refNr);
   displayProductsFromShoppingCart();
 
   // calculate the total price of your cart, and use it:
