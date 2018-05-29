@@ -1,0 +1,1 @@
+// javascript statements for store
